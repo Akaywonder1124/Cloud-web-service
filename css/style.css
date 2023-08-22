@@ -15,6 +15,8 @@ body{
     --secondary-color : #1c3fa8;
     --dark-color : #002240;
     --light-color : #f4f4f4;
+    --success-color : #5cb85c;
+    --error-color : #d9534f;
 
 }
 
@@ -238,6 +240,19 @@ justify-self: flex-end;
 
 .docs-main .grid{
     grid-template-columns: 1fr 2fr;
+    justify-content: flex-start;
+}
+.docs-main nav li{
+    font-size: 17px;
+    padding-bottom: 5px;
+    margin-bottom: 5px;
+    border-bottom: 1px solid #ccc;
+}
+.docs-main nav li a{
+    color: #333;
+}
+.docs-main h2{
+    font-weight: 500;
 }
 /* Footer */
 

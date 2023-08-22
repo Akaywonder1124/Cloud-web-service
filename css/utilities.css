@@ -47,8 +47,31 @@
     background-color: transparent;
     border: 1px #fff solid;
 }
+/* Alert */
+.alert{
+    background-color: var(--light-color);
+    padding: 10px 20px;
+    margin: 15px 0;
+    font-weight: bold;
+}
 
+.alert i{
+    margin-right: 10px;
+}
 
+.alert-success{
+    background-color: var(--success-color);
+    color: #fff;
+}
+.alert-error{
+    background-color: var(--error-color);
+    color: #fff;
+}
+code, pre{
+    background-color: var(--dark-color);
+    color: #fff;
+    padding: 10px;
+}
 /* Text sizes */
 .lead{
     font-size: 20px;
